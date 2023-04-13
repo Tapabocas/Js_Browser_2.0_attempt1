@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="backgrounds">
+  <head>
+    <link rel="stylesheet" href="./css.css">
+    
+    <meta charset="UTF-8">
+    <title> To do list </title>
+  </head>
+  <body class="cuerpo">
+    <div class="Main_Button">
+    <input input placeholder="Ingresa tu nueva tarea" type="text" id="texto">
+    <button class="Button" onclick = "policia()",> Add</button>
+    </div>
+    <div class="Intento">
+      <header class="jeder"> Current task list : </header>
+    <ol class="attempt">
+    </ol>
+    </div>
+      <script>      
+          const boton = document.querySelector('Button');
+          const tecsto = document.querySelector('#texto');
+          boton.addEventListener('click',() => {
+            let contenido = tecsto.value
+            //alert ("es : "+contenido)
+            // crear label dentro del <li>
+            //
+            let li=document.createElement('li')
+            
+            let cb=document.createElement('input')
+            cb.type="checkbox"
+            cb.name="burro"
+            li.id="textao"
+            
+            
+            li.class="asnito"
+            li.innerHTML = contenido
+            
+            document.querySelector('.attempt').append(cb)
+            document.querySelector('.attempt').append(li)
+            
+            
+
+
+
+            
+            //document.querySelector('.attempt').append(cb)
+            
+            //parrafo.textContent = lista;
+            texto.value="" //to reset the text in the input field
+            // De aqui para arriba esta hecha la parte de crear la lista con el checkbox
+            // ok.. ahora que al checarla cambie de estado de true a false.
+
+
+
+
+        
+          function handleSubmit(){
+
+
+
+
+          }
+          function handleCheckTask(cb){
+            if (this.checked){
+              alert("Checked")
+            } 
+          handleCheckTask(li.cb);
+
+
+
+
+          }
+          function handleDelete(){
+          
+
+
+
+
+          }
+                  
+            
+          });
+;
+      </script>
+  </body>
+</html>

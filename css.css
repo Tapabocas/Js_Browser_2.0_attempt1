@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+.cuerpo{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.Main_Button{
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom:  8px;
+    display: flex;
+    width: 250px;
+    flex-direction: row;
+    border:1px solid black !important; ;
+    padding: 10px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    justify-content: flex-end;
+    
+}
+.Main_Button:focus{
+    
+outline: none !important;;
+}
+.ListContainer{
+    margin: auto;
+    text-align: center;
+    background-color: red !important;;
+}
+
+
+
+
+.Intento{
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid black !important;
+    margin: auto;
+    text-align: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+
+
+}
+
+
+
+.jeder{
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 15px;
+    color: black;
+}
+
+
+
+.attempt{
+    text-align: left;
+}
+
+
+
+#yomedejo {
+    display: flex;
+    align-items: right;
+}
